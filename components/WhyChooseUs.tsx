@@ -92,7 +92,7 @@ export default function WhyChooseUs() {
         </motion.div>
 
         {/* Content Side */}
-        <div className="flex-1 text-center md:text-left">
+        <div className=" mx-auto flex-1 text-center md:text-left">
           <div className="relative space-y-10 before:absolute before:top-0 before:left-19 before:w-[3px] before:h-full before:bg-green-300">
             {reasons.map((reason, i) => (
               <motion.div
