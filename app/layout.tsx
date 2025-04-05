@@ -32,15 +32,15 @@ export const metadata: Metadata = {
     "school design services",
     "business brand identity",
   ],
-  authors: [{ name: "DtPix Studios", url: "https://dtpixstudios.com" }],
+  authors: [{ name: "DtPix Studios", url: "https://dtpixstudios.vercel.app/" }],
   creator: "DtPix Studios",
-  metadataBase: new URL("https://dtpixstudios.com"),
+  metadataBase: new URL("https://dtpixstudios.vercel.app/"),
   openGraph: {
     title: "DtPix Studios | Branding, Web Design & More",
     description:
       "We craft beautiful designs, websites, and brand identities that speak your vision. Discover how DtPix Studios can transform your ideas into stunning visuals.",
 
-    url: "https://dtpixstudios.com",
+    url: "https://dtpixstudios.vercel.app/",
     siteName: "DtPix Studios",
     images: [
       {
