@@ -19,7 +19,7 @@ export default function Hero() {
     <section
       ref={ref}
       id="home"
-      className="w-full bg-gradient-to-br from-green-100 to-white pt-26 pb-20 px-4 sm:px-6 md:px-12 overflow-hidden"
+      className="w-full bg-gradient-to-br from-green-100 to-white pt-28 pb-22 px-4 sm:px-6 md:px-12 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         {/* Left: Text */}
