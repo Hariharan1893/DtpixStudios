@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "DtPix Studios",
     images: [
       {
-        url: "/logo.png",
+        url: "https://dtpixstudios.vercel.app/logo.png",
         width: 800,
         height: 600,
         alt: "DtPix Studios Logo",
@@ -52,14 +52,6 @@ export const metadata: Metadata = {
     ],
     type: "website",
     locale: "en_IN",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "DtPix Studios | Design, Branding, & Web Solutions",
-    description:
-      "From posters to pixel-perfect websites, DtPix Studios brings your ideas to life through visual storytelling and design precision.",
-    images: ["/logo.png"],
-    creator: "@dtpixstudios",
   },
 };
 
