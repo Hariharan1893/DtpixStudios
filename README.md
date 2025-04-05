@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DtPix Studios – Creative Landing Page 🎬✨
 
-## Getting Started
+DtPix Studios is a visually captivating and responsive single-page landing site built to showcase a creative agency's services, values, and client trust. Designed with a modern green-themed aesthetic and smooth animations, it's perfect for media, production, or digital creative teams.
 
-First, run the development server:
+## 🌐 Live Preview
+
+## [🔗 Visit DtPix Studios Landing Page](https://dtpixstudios.vercel.app)
+
+## 📸 Demo
+
+### 📱 Mobile View
+
+![Mobile Demo](./public/mobile-demo.png)
+
+### 🖥️ Desktop View
+
+![Desktop Demo](./public/desktop-demo.png)
+
+---
+
+## 🛠 Tech Stack
+
+- [Next.js 14 (App Router)](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide Icons](https://lucide.dev/)
+- [Nodemailer](https://nodemailer.com/about/) – Handles email submissions
+
+---
+
+## 🚀 Features
+
+- 📱 **Fully Responsive** – Seamless experience across mobile, tablet, and desktop.
+- 🎨 **Mint-Green Themed UI** – Fresh, clean, and vibrant color palette.
+- 🧭 **Smooth Scrolling Navigation** – Easy access to all sections.
+- 💼 **About & Services Section** – Highlights what DtPix Studios does best.
+- ⭐ **Client Testimonials** – Builds trust with real feedback.
+- 📊 **Quick Stats Section** – Eye-catching animated counters.
+- 💬 **FAQ Accordion** – Answers to commonly asked questions.
+- 🧾 **Quote Banner & CTA** – Encourages user engagement.
+- 📥 **Contact Form** – Sends email to `info.dtpixstudios@gmail.com`.
+
+---
+
+## 📁 Folder Structure
+
+```
+dtpix-studios/
+├── app/                    # Next.js App Router structure
+│   ├── components/         # Reusable components (Navbar,
+├── ├── api/                # Route.ts api
+Hero, etc.)
+│   ├── styles/             # Tailwind + custom styles
+│   ├── assets/             # Images and icons
+│   └── page.tsx            # Root landing page
+├── public/                 # Static assets
+├── tailwind.config.js      # Tailwind customization
+├── package.json
+└── README.md
+```
+
+---
+
+## 🧰 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/dtpix-studios.git
+cd dtpix-studios
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Start the Dev Server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the site locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📬 Contact
 
-## Learn More
+For collaboration or inquiries, feel free to reach out:
 
-To learn more about Next.js, take a look at the following resources:
+📧 **info.dtpixstudios@gmail.com**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
+This project is licensed under the [MIT License](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✨ Credits
+
+Created with ❤️ by [**Hari**](https://www.linkedin.com/in/hariharanr18/) and the DtPix Studios Team.
