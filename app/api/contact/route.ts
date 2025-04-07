@@ -5,7 +5,6 @@ export async function POST(req: Request) {
   try {
     const { name, email, message } = await req.json();
 
-    // Basic validation
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: "Missing required fields." },
@@ -23,7 +22,7 @@ export async function POST(req: Request) {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_TO, // comma-separated in .env
+      to: process.env.EMAIL_TO,
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <div style="font-family: sans-serif; font-size: 16px; color: #333;">

@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// SEO Optimization Meta tags
 export const metadata: Metadata = {
   title: "DtPix Studios | Creative Design & Branding Solutions",
   description:
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
   },
   keywords: [
     "DtPix Studios",
+    "Dtp works",
+    "freelancing",
+    "website making",
     "branding services",
     "web design",
     "UI/UX design",
